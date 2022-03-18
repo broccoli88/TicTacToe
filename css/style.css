@@ -24,6 +24,13 @@ body {
 
 /* ##################################TYPOGRAPHY################################# */
 
+h1 {
+  color: white;
+  margin: 4rem auto;
+  text-align: center;
+  font-size: 8rem;
+}
+
 .table {
   width: 45rem;
   aspect-ratio: 1;
@@ -53,10 +60,27 @@ body {
   display: none;
 }
 
-.circle-win {
-  color: white;
+.circle-win,
+.cross-win {
+  text-align: center;
+  color: crimson;
+  margin: 5rem 0;
+  font-size: 4rem;
 }
 
-.cross-win {
-  color: white;
+.button {
+  font-size: 1.6rem;
+  width: 7em;
+  height: 3em;
+  padding: 3rem, 0.5em;
+  border: 1px solid teal;
+  background-color: white;
+  cursor: pointer;
+}
+
+.buttons {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
